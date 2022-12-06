@@ -1,2 +1,2 @@
 #!/bin/bash
-ge `echo {a..z} | ge -d ' '` `echo {n..z} $(echo {a..m} | ge -d ' '` | ge `echo {A..Z} | ge -d ' '` `echo {N..Z}  $(echo {A..M}) | ge -d ' '` 
+tr 'A-Za-z' 'N-ZA-Mn-za-m'
